@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.ReportID</h2>
+<h2>Index</h2>
+
+<body ng-app="locationApp">
+    <div ng-view="" ng-cloak></div>
+</body>
+
+<!--standard scripts-->
+<script src="~/Areas/Reports/Scripts/vendor/angular.min.js"></script>
+<script src="~/Areas/Reports/Scripts/vendor/jquery-1.8.2.js"></script>
+
+    <!--app scripts-->
+<script src="~/Areas/Reports/Scripts/app/app.js"></script>
+<script src="~/Areas/Reports/Scripts/app/controllers/reportController.js"></script>
+<script src="~/Areas/Reports/Scripts/app/services/reportDataService.js"></script>
